@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1581509070">
+  <File Type="BG-DRC" Name="six_bit_subtractor.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="six_bit_subtractor_routed_error.dcp"/>
+  <File Type="OPT-DRC" Name="six_bit_subtractor_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="six_bit_subtractor_opt.dcp"/>
+  <File Type="REPORTS-TCL" Name="six_bit_subtractor_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="six_bit_subtractor_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-TIMING-RPX" Name="six_bit_subtractor_timing_summary_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="six_bit_subtractor.rbt"/>
+  <File Type="PHYSOPT-DCP" Name="six_bit_subtractor_physopt.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="six_bit_subtractor_timing_summary_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="six_bit_subtractor.msk"/>
+  <File Type="PA-TCL" Name="six_bit_subtractor.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="six_bit_subtractor_bus_skew_routed.pb"/>
+  <File Type="OPT-HWDEF" Name="six_bit_subtractor.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW" Name="six_bit_subtractor_bus_skew_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="six_bit_subtractor.mmi"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="six_bit_subtractor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="six_bit_subtractor_routed.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="six_bit_subtractor_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="six_bit_subtractor_routed_bb.dcp"/>
+  <File Type="BG-BGN" Name="six_bit_subtractor.bgn"/>
+  <File Type="ROUTE-DRC" Name="six_bit_subtractor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="six_bit_subtractor_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="six_bit_subtractor.bit"/>
+  <File Type="ROUTE-STATUS-PB" Name="six_bit_subtractor_route_status.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="six_bit_subtractor_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="six_bit_subtractor_clock_utilization_routed.rpt"/>
+  <File Type="BITSTR-BMM" Name="six_bit_subtractor_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="six_bit_subtractor_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-NKY" Name="six_bit_subtractor.nky"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="six_bit_subtractor_timing_summary_routed.rpt"/>
+  <File Type="BG-BIN" Name="six_bit_subtractor.bin"/>
+  <File Type="BITSTR-SYSDEF" Name="six_bit_subtractor.sysdef"/>
+  <File Type="BITSTR-LTX" Name="six_bit_subtractor.ltx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="six_bit_subtractor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="six_bit_subtractor_postroute_physopt_bb.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="six_bit_subtractor_postplace_pwropt.dcp"/>
+  <File Type="RDI-RDI" Name="six_bit_subtractor.vdi"/>
+  <File Type="ROUTE-PWR" Name="six_bit_subtractor_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="six_bit_subtractor_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="six_bit_subtractor_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="six_bit_subtractor_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="six_bit_subtractor_route_status.rpt"/>
+  <File Type="PLACE-CTRL" Name="six_bit_subtractor_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="six_bit_subtractor_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="six_bit_subtractor_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="six_bit_subtractor_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="six_bit_subtractor_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="six_bit_subtractor_pwropt.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/four_bit_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../lab_2/lab_2.srcs/sources_1/new/four_bit_adder.v"/>
+        <Attr Name="ImportTime" Val="1581509066"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/one_bit_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../lab_2/lab_2.srcs/sources_1/new/one_bit_adder.v"/>
+        <Attr Name="ImportTime" Val="1581508814"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/two_bit_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../lab_2/lab_2.srcs/sources_1/new/two_bit_adder.v"/>
+        <Attr Name="ImportTime" Val="1581507037"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/six_bit_subtractor.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../lab_2/lab_2.srcs/sources_1/new/six_bit_subtractor.v"/>
+        <Attr Name="ImportTime" Val="1581508699"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="six_bit_subtractor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/basys3.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../lab_2/lab_2.srcs/constrs_1/new/basys3.xdc"/>
+        <Attr Name="ImportTime" Val="1581508695"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

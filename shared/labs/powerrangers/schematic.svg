@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 464 230"
+     clip="0 464 230 0"
+     preserveAspectRatio="xMidYMid meet"
+     version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     xml:space="preserve">
+<title>main</title>
+<desc>Nlview schematic (SVG)</desc>
+<clipPath id="clippingbbox">
+<rect x="0" y="0" width="464" height="230" />
+</clipPath>
+<g stroke="#19b400"
+   stroke-width="1"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-miterlimit="4"
+   stroke-dasharray="none"
+   stroke-dashoffset="0"
+   fill="none"
+   font-family="Helvetica"
+   font-style="normal"
+   font-size="12"
+   writing-mode="lr-tb"
+   cursor="crosshair"
+   clip-path="url(#clippingbbox)">
+<path d="M0 0h464v231h-464z" stroke="none" fill="white" />
+<g stroke="black">
+<path d="M58 60l-7 7h-14v-14h14z" />
+<text x="33" y="60" fill="black" stroke-width="0" text-anchor="end" dy="3.85">a</text>
+<path d="M58 80l-7 7h-14v-14h14z" />
+<text x="33" y="80" fill="black" stroke-width="0" text-anchor="end" dy="3.85">b</text>
+<path d="M148 28h60v62h-60z" stroke="none" fill="#dfebf8" />
+<path d="M148 28h60v62h-60z" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M159 33v12" />
+<path d="M153 39h12" />
+</g>
+<g stroke="black">
+<path d="M151 31h16v16h-16z" />
+<text x="178" y="26" fill="black" stroke-width="0" text-anchor="middle">d1</text>
+<text x="178" y="92" fill="black" stroke-width="0" text-anchor="middle" dy="7.7">ketchup</text>
+<path d="M138 60h10" />
+<text x="146" y="59" fill="black" stroke-width="0" font-size="10" text-anchor="end">a</text>
+<path d="M138 80h10" />
+<text x="146" y="79" fill="black" stroke-width="0" font-size="10" text-anchor="end">b</text>
+<path d="M218 60h-10" />
+<text x="210" y="59" fill="black" stroke-width="0" font-size="10">c</text>
+<path d="M158 60h-10" />
+<path d="M158 80h-10" />
+<path d="M198 60h10" />
+<path d="M148 138h60v62h-60z" stroke="none" fill="#dfebf8" />
+<path d="M148 138h60v62h-60z" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M159 143v12" />
+<path d="M153 149h12" />
+</g>
+<g stroke="black">
+<path d="M151 141h16v16h-16z" />
+<text x="178" y="136" fill="black" stroke-width="0" text-anchor="middle">d2</text>
+<text x="178" y="202" fill="black" stroke-width="0" text-anchor="middle" dy="7.7">noobman</text>
+<path d="M138 170h10" />
+<text x="146" y="169" fill="black" stroke-width="0" font-size="10" text-anchor="end">a</text>
+<path d="M138 190h10" />
+<text x="146" y="189" fill="black" stroke-width="0" font-size="10" text-anchor="end">b</text>
+<path d="M218 170h-10" />
+<text x="210" y="169" fill="black" stroke-width="0" font-size="10">c</text>
+<path d="M158 170h-10" />
+<path d="M158 190h-10" />
+<path d="M198 170h10" />
+<path d="M303 55l2 2l2 3l1 2l1 3l1 3v4l-1 3l-1 3l-1 2l-2 3l-2 2h10h3l3 -1l3 -1l2 -1l3 -1l3 -2l2 -2l2 -2l2 -2l2 -3l-2 -3l-2 -2l-2 -2l-2 -2l-3 -2l-3 -1l-2 -1l-3 -1l-3 -1h-3z" stroke="none" fill="#ffffcc" />
+<path d="M298,55 A19.5714,19.5714 1.74651 0,1 298,85" />
+<path d="M303,55 A19.5714,19.5714 1.74651 0,1 303,85" />
+<path d="M303 85h10" />
+<path d="M313,85 A32.596,32.596 -0.927295 0,0 338,70" />
+<path d="M338,70 A32.596,32.596 -0.927295 0,0 313,55" />
+<path d="M313 55h-10" />
+<text x="300" y="54" fill="black" stroke-width="0">c_i</text>
+<text x="300" y="86" fill="black" stroke-width="0" dy="7.7">RTL_XOR</text>
+<path d="M288 60h14" />
+<text x="297" y="59" fill="black" stroke-width="0" font-size="10" text-anchor="end">I0</text>
+<path d="M288 80h14" />
+<text x="297" y="79" fill="black" stroke-width="0" font-size="10" text-anchor="end">I1</text>
+<path d="M348 70h-10" />
+<text x="339" y="69" fill="black" stroke-width="0" font-size="10">O</text>
+<path d="M408 70v-7h14l7 7l-7 7h-14z" />
+<text x="433" y="70" fill="black" stroke-width="0" dy="3.85">c</text>
+</g>
+<g>
+<path d="M58 60h40v110h40" />
+<path d="M98 60h40" />
+<path d="M96 58h5v5h-5z" stroke="none" fill="#19b400" />
+<path d="M58 80h20v110h60" />
+<path d="M78 80h60" />
+<path d="M76 78h5v5h-5z" stroke="none" fill="#19b400" />
+<path d="M348 70h60" />
+<path d="M218 60h70" />
+<path d="M218 170h30v-90h40" />
+</g>
+</g>
+</svg>

@@ -1,0 +1,6 @@
+.DS_Store
+
+box/.vagrant
+box/ubuntu-xenial-16.04-cloudimg-console.log
+
+labs/*

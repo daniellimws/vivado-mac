@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# xsim v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Mar  4 11:46:26 2020
+# Process ID: 4301
+# Current directory: /shared/labs/lab_2/lab_2.sim/sim_1/behav/xsim
+# Command line: xsim -source {xsim.dir/sim_behav/xsim_script.tcl}
+# Log file: /shared/labs/lab_2/lab_2.sim/sim_1/behav/xsim/xsim.log
+# Journal file: /shared/labs/lab_2/lab_2.sim/sim_1/behav/xsim/xsim.jou
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/sim_behav/xsim_script.tcl
+# set_param project.enableReportConfiguration 0
+# load_feature core
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+# xsim {sim_behav} -autoloadwcfg
+Vivado Simulator 2018.2
+basic_filebuf::underflow error reading the file
+    while executing
+"xsim {sim_behav} -autoloadwcfg"
+    (file "xsim.dir/sim_behav/xsim_script.tcl" line 4)
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Mar  4 11:47:00 2020...

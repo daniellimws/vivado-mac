@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Feb 12 07:31:10 2020
+# Process ID: 5791
+# Current directory: /home/osboxes
+# Command line: vivado
+# Log file: /home/osboxes/vivado.log
+# Journal file: /home/osboxes/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/osboxes/lab_2/lab_2.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/osboxes/lab_2/lab_2.runs/impl_1/six_bit_subtractor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/osboxes/lab_2/lab_2.runs/impl_1/six_bit_subtractor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+launch_simulation
+source sim.tcl
+archive_project {/home/osboxes/Lab2_Wednesday_PM_DANIEL LIM WEE SOONG_A0152225R_Archive.xpr.zip} -force -include_local_ip_cache

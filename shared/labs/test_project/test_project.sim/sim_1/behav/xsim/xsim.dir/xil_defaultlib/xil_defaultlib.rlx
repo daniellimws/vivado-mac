@@ -1,0 +1,8 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/shared/labs/test_project/test_project.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/shared/labs/test_project/test_project.srcs/sim_1/new/test_sim1.v,1583290043,verilog,,,,test_sim1,,,,,,,,
+/shared/labs/test_project/test_project.srcs/sources_1/new/testv1.v,1583287254,verilog,,/shared/labs/test_project/test_project.srcs/sources_1/new/testv2.v,,testv1,,,,,,,,
+/shared/labs/test_project/test_project.srcs/sources_1/new/testv2.v,1583287256,verilog,,/shared/labs/test_project/test_project.srcs/sim_1/new/test_sim1.v,,testv2,,,,,,,,
