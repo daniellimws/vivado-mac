@@ -1,7 +1,13 @@
-It is possible to use Vivado on Mac.
+It is possible to use Vivado on Mac. 
 
 ### Setup
-#### Installing Vivado
+This repo should contain all the things needed (except the Vivado installation files), so just clone it.
+
+```
+git clone https://github.com/daniellimws/vivado-mac.git
+```
+
+#### Install Vivado
 First, create a vagrant box running Ubuntu 16.04. **box/Vagrantfile** already contains the working configurations needed for this.
 
 ```
@@ -61,5 +67,13 @@ Since the vagrant box is configured without a GUI, but we may want to use Vivado
 
 Usage is quite straightforward. Just open XQuartz and run the GUI program inside vagrant, then the GUI will be automatically forwarded to the host machine.
 
-That should be all. I think.
+#### USB connection with the FPGA board
+Follow instructions [here](https://www.centennialsoftwaresolutions.com/post/connecting-vivado-to-digilent-s-usb-to-jtag-through-virtualbox) to set up USB and the required drivers in the virtual machine.
 
+### VSCode Extension
+With these, this setup can be used with [this](https://github.com/daniellimws/viv) VSCode extension to manage Vivado projects instead of using the Vivado GUI.
+
+### By the way
+The tcl scripts under **shared/viv/scripts** assumes that a Basys3 Development Board is used. For a different board, the part number (e.g xc7a35tcpg236-1) has to be changed accordingly.
+
+That should be all. I think.
