@@ -73,6 +73,8 @@ Follow instructions [here](https://www.centennialsoftwaresolutions.com/post/conn
 ### VSCode Extension
 With these, this setup can be used with [this](https://github.com/daniellimws/viv) VSCode extension to manage Vivado projects instead of using the Vivado GUI.
 
+This extension assumes the project folders are under **shared/labs**.
+
 ### By the way
 The tcl scripts under **shared/viv/scripts** assumes that a Basys3 Development Board is used. For a different board, the part number (e.g xc7a35tcpg236-1) has to be changed accordingly.
 
