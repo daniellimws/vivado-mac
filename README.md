@@ -38,7 +38,9 @@ These libraries should be installed for the Vivado GUI features (to export schem
 
 ```sh
 sudo apt update
-sudo apt install -y libxrender1 libxtst6 libxi6 
+sudo apt install -y libxrender1 libxtst6 libxi6
+sudo apt install build-essential
+
 ```
 
 Link the `gcc` that came installed with Vivado to **/usr/bin** because it will be needed when running simulations.
